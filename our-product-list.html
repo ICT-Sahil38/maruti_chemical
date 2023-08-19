@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Maruti chemical</title>
+    <title>Product Details</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 
 
     <!-- CSS
-    ============================================ -->
+    ============================================ -->    
 
     <!--===== Vendor CSS (Bootstrap & Icon Font) =====-->
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
@@ -31,15 +31,17 @@
     <!--====== Main Style CSS ======-->
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
 
 </head>
 
 <body>
 
-    <!--====== Header Start ======-->
+     <!--====== Header Start ======-->
 
-    <header class="header-area">
-        <div class="header-top">
+     <header class="header-area">
+        <div class="header-top header-top-custom">
             <div class="container">
                 <div class="header-top-wrapper d-flex flex-wrap justify-content-sm-between">
                     <div class="header-top-left mt-10">
@@ -48,13 +50,7 @@
                         </ul>
                     </div>
 
-                    <!-- <div class="header-top-right mt-10">
-                        <div class="header-link">
-                            <a class="notice" href#Notice</a>
-                            <a class="login" href#Login</a>
-                            <a class="register" #">Register</a>
-                        </div>
-                    </div> -->
+                   
                 </div>
             </div>
         </div>
@@ -75,33 +71,9 @@
                                 <li><a href="index.html">Home</a>
                                     <li>
                                     <a class="active" href="our-product-list.html">Products</a>
-                                    <!-- <ul class="nav-dropdown nav-submenu">
-                                        <li>
-                                            <a href="#">Courses Grid</a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="#">Courses 01</a></li>
-                                                <li><a href="#">Courses 02</a></li>
-                                                <li><a href="#">Courses 03</a></li>
-                                                <li><a href="#">Courses Left Sidebar</a>
-                                                </li>
-                                                <li><a href="#">Courses Right Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Courses</a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="#">Courses List</a></li>
-                                                <li><a href="#">Courses List Left
-                                                        Sidebar </a></li>
-                                                <li><a href="#">Courses List Right
-                                                        Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Courses Details</a></li>
-                                    </ul> -->
+                                   
                                 </li>
-                                <li><a href="about-us.html">About us</a></li>
+                                <li><a  href="about-us.html">About us</a></li>
                                 <li><a href="">FAQs</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -125,10 +97,10 @@
     <!--====== Page Banner Start ======-->
 
     <section class="page-banner">
-        <div class="bg-cover-color page-banner-bg bg_cover" style="background-image: url(assets/images/counter-bg.png);">
+        <div class="page-banner-bg bg_cover" style="background-image: url(assets/images/page-banner.webp);">
             <div class="container">
                 <div class="banner-content text-center">
-                    <h2 class="title">Our Products</h2>
+                    <h2 class="title">Product Details</h2>
                 </div>
             </div>
         </div>
@@ -136,438 +108,254 @@
 
     <!--====== Page Banner Ends ======-->
 
-    <!--====== Top Course Start ======-->
+    <!--====== Product Details Start ======-->
 
-    <section class="top-courses-area">
+    <section class="product-details-page">
         <div class="container">
-            <div class="courses-bar">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="courses-tab">
-                            <ul class="nav">
-                                <li><a data-bs-toggle="tab" href="#grid"><i class="fas fa-th-large"></i></a></li>
-                                <li><a class="active" data-bs-toggle="tab" href="#list"><i class="fas fa-list"></i></a>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="product-details-wrapper">
+                        <div class="product-details-content">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-8">
+                                    <div class="details-image mt-50">
+                                        <img src="assets/images/product-details.webp" width="377" height="453" alt="Product Details">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="details-content mt-45">
+                                        <h4 class="product-title">Pen Holder</h4>
+                                        <div class="price-rating">
+                                            <span class="price">Price: $12.00</span>
+                                            <ul class="rating">
+                                                <li class="rating-on"><i class="fas fa-star"></i></li>
+                                                <li class="rating-on"><i class="fas fa-star"></i></li>
+                                                <li class="rating-on"><i class="fas fa-star"></i></li>
+                                                <li class="rating-on"><i class="fas fa-star"></i></li>
+                                                <li class="rating-on"><i class="fas fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-content-wrapper">
+                                            <div class="stock">
+                                                <p>Available in Stock</p>
+                                            </div>
+                                            <div class="colors">
+                                                <span>Color: </span>
+                                                <ul class="product-color">
+                                                    <li class="active" data-color="#07294D"></li>
+                                                    <li data-color="#199053"></li>
+                                                    <li data-color="#4B46D2"></li>
+                                                    <li data-color="#8C46D2"></li>
+                                                    <li data-color="#D2469F"></li>
+                                                </ul>
+                                            </div>
+                                            <div class="size">
+                                                <span>Size:</span>
+                                                <ul class="product-size">
+                                                    <li>
+                                                        <span>S</span>
+                                                    </li>
+                                                    <li class="active">
+                                                        <span>M</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>L</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>XL</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>XXL</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="quantity">
+                                                <span>Quantity:</span>
+                                                <div class="product-quantity d-inline-flex">
+                                                    <button type="button" class="sub"><i class="fa fa-minus"></i></button>
+                                                    <input type="text" value="1" />
+                                                    <button type="button" class="add"><i class="fa fa-plus"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="main-btn main-btn-2 add-cart">Add to Cart</a>
+                                            <a href="#" class="wishlist"><i class="fa fa-heart"></i></a>
+                                            <a href="#" class="compare"><i class="fas fa-redo-alt"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-details-tab">
+                            <ul class="nav nav-justified">
+                                <li class="nav-item">
+                                    <a class="active" data-bs-toggle="tab" href="#description">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-bs-toggle="tab" href="#information">Additional information</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-bs-toggle="tab" href="#reviews">Reviews</a>
                                 </li>
                             </ul>
-                            <p>Showing 1 - 16 of 36 results</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="courses-bar-form">
-                            <div class="courses-select">
-                                <select id="selectbox1">
-                                    <option value="0">Newly published</option>
-                                    <option value="1">published 01</option>
-                                    <option value="2">published 02</option>
-                                    <option value="3">published 03</option>
-                                    <option value="4">published 04</option>
-                                    <option value="5">published 05</option>
-                                </select>
-                            </div>
-                            <div class="courses-search">
-                                <input type="text" placeholder="Search courses">
-                                <i class="fa fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-content">
-                <div class="tab-pane fade" id="grid">
-                    <div class="courses-wrapper wrapper-2">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-5.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Science</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Computer Science &
-                                                Engineering</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="description">
+                                    <div class="product-description">
+                                        <p>Product are all great condition in same  If you are going use a passage of Lorem Ipsum need equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. <br> <br> Not to warry about quality, because we If you are going use a passage of Lorem Ipsum need equal blame belongs to those who fail in their duty through weakness</p>
+
+                                        <ul class="product-list">
+                                            <li>
+                                                <i class="far fa-check-circle"></i>
+                                                <p>Bachelor of Business Administration(BBA) If you are going use a passage of blame belongs to those who fail in their duty through weakness </p>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-check-circle"></i>
+                                                <p>Bachelor of Business Administration(BBA) If you are going use a passage of blame belongs to those who fail in their duty through weakness </p>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-check-circle"></i>
+                                                <p>Bachelor of Business Administration(BBA) If you are going use a passage of blame belongs to those who fail in their duty through weakness </p>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-6.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Technology</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Business
-                                                Administration</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                                <div class="tab-pane fade" id="information">
+                                    <div class="product-information table-responsive">
+                                        <table class="table">                                        
+                                            <tbody>
+                                                <tr>
+                                                    <td class="table-title"><h4 class="title">Materisl</h4></td>
+                                                    <td class="table-content"><p>Plastic grade</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title"><h4 class="title">Quality</h4></td>
+                                                    <td class="table-content"><p>Best quality</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title"><h4 class="title">Cash on Delivery</h4></td>
+                                                    <td class="table-content"><p>Yes</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title"><h4 class="title">Return Policy</h4></td>
+                                                    <td class="table-content"><p>30 days</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title"><h4 class="title">Warranty</h4></td>
+                                                    <td class="table-content"><p>1 year</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title"><h4 class="title">Dimension</h4></td>
+                                                    <td class="table-content"><p>10X6X12</p></td>
+                                                </tr>
+                                        </table>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-7.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Science</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Social & Digital
-                                                Marketing</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
+                                <div class="tab-pane fade" id="reviews">
+                                    <div class="product-reviews">
+                                        <div class="review-wrapper">
+                                            <div class="review-star">
+                                                <div class="single-review">
+                                                    <span class="label">Stars 5</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 100%;"></div>
+                                                    </div>
+                                                    <span class="value">35</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Stars 4</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 80%;"></div>
+                                                    </div>
+                                                    <span class="value">10</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Stars 3</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 55%;"></div>
+                                                    </div>
+                                                    <span class="value">8</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Stars 2</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 0;"></div>
+                                                    </div>
+                                                    <span class="value">0</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Stars 1</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 0;"></div>
+                                                    </div>
+                                                    <span class="value">0</span>
+                                                </div>
                                             </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
+                                            <div class="review-point">
+                                                <span>4.9</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="review-form">
+                                            <div class="review-rating">
+                                                <h5 class="title">Write a Review</h5>
+
+                                                <ul id='stars'>
+                                                    <li class='star' title='Poor' data-value='1'>
+                                                    <i class='fas fa-star'></i>
+                                                    </li>
+                                                    <li class='star' title='Fair' data-value='2'>
+                                                    <i class='fas fa-star'></i>
+                                                    </li>
+                                                    <li class='star' title='Good' data-value='3'>
+                                                    <i class='fas fa-star'></i>
+                                                    </li>
+                                                    <li class='star' title='Excellent' data-value='4'>
+                                                    <i class='fas fa-star'></i>
+                                                    </li>
+                                                    <li class='star' title='WOW!!!' data-value='5'>
+                                                    <i class='fas fa-star'></i>
+                                                    </li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-8.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Technology</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Applied
-                                                Mathematics</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
+
+                                            <div class="review-form-wrapper">
+                                                <form action="#">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="single-form">
+                                                                <input type="text" placeholder="Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="single-form">
+                                                                <input type="email" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="single-form">
+                                                                <input type="text" placeholder="Phone">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="single-form">
+                                                                <input type="text" placeholder="Title">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="single-form">
+                                                                <textarea placeholder="Write here..."></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="single-form">
+                                                                <button class="main-btn">Submit now</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-9.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Literature</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of English
-                                                Literature</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-10.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Business</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Advance
-                                                Psychology</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-11.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Marketing</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Film and
-                                                Theater</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-12.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Science</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Law and
-                                                Creminalism</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-13.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Science</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Applied
-                                                Physics</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-14.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Business</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Business
-                                                Marketing</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-15.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Science</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Micro
-                                                Biology</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6 courses-col">
-                                <div class="single-courses-2 mt-30">
-                                    <div class="courses-image">
-                                        <a href="#"><img src="assets/images/courses/courses-16.webp" width="270"
-                                                height="170" alt="courses"></a>
-                                    </div>
-                                    <div class="courses-content">
-                                        <a href="#" class="category">#Technology</a>
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Fashion
-                                                Design</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="fee">Fee: <span> $540</span></p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -575,260 +363,108 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade show active" id="list">
-                    <div class="courses-wrapper wrapper-2">
-                        <div class="courses-col">
-                            <div class="single-courses-2 courses-list mt-30">
-                                <div class="courses-image">
-                                    <a href="#"><img src="assets/images/courses-list/courses-1.webp" width="320"
-                                            height="300" alt="courses"></a>
-                                </div>
-                                <div class="courses-content">
-                                    <p class="courses-fee">Fee: <span> $540</span></p>
-
-                                    <div class="courses-content-wrapper">
-                                        <h4 class="courses-title"><a href="courses-details.html">Computer Science &
-                                                Engineering</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="credit">Credit: 125</p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="col-lg-3">
+                    <div class="shop-sidebar pt-20">
+                        <div class="shop-sidebar-category mt-30">
+                            <div class="sidebar-title">
+                                <h4 class="title">Categories</h4>
                             </div>
-                        </div>
-                        <div class="courses-col">
-                            <div class="single-courses-2 courses-list mt-30">
-                                <div class="courses-image">
-                                    <a href="#"><img src="assets/images/courses-list/courses-2.webp" width="320"
-                                            height="300" alt="courses"></a>
-                                </div>
-                                <div class="courses-content">
-                                    <p class="courses-fee">Fee: <span> $540</span></p>
-
-                                    <div class="courses-content-wrapper">
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Business
-                                                Administration</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="credit">Credit: 125</p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                            <ul class="category-items">
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="categoryRadio" id="categoryRadio1">
+                                        <label for="categoryRadio1"> <span></span> Science <strong>(25)</strong></label>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="courses-col">
-                            <div class="single-courses-2 courses-list mt-30">
-                                <div class="courses-image">
-                                    <a href="#"><img src="assets/images/courses-list/courses-3.webp" width="320"
-                                            height="300" alt="courses"></a>
-                                </div>
-                                <div class="courses-content">
-                                    <p class="courses-fee">Fee: <span> $540</span></p>
-
-                                    <div class="courses-content-wrapper">
-                                        <h4 class="courses-title"><a href="courses-details.html">Social & Digital
-                                                Marketing</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="credit">Credit: 125</p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="categoryRadio" id="categoryRadio2">
+                                        <label for="categoryRadio2"> <span></span> Marketing <strong>(18)</strong></label>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="courses-col">
-                            <div class="single-courses-2 courses-list mt-30">
-                                <div class="courses-image">
-                                    <a href="#"><img src="assets/images/courses-list/courses-4.webp" width="320"
-                                            height="300" alt="courses"></a>
-                                </div>
-                                <div class="courses-content">
-                                    <p class="courses-fee">Fee: <span> $540</span></p>
-
-                                    <div class="courses-content-wrapper">
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of English
-                                                Literature</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="credit">Credit: 125</p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="categoryRadio" id="categoryRadio3">
+                                        <label for="categoryRadio3"> <span></span> Design <strong>(10)</strong></label>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="courses-col">
-                            <div class="single-courses-2 courses-list mt-30">
-                                <div class="courses-image">
-                                    <a href="#"><img src="assets/images/courses-list/courses-5.webp" width="320"
-                                            height="300" alt="courses"></a>
-                                </div>
-                                <div class="courses-content">
-                                    <p class="courses-fee">Fee: <span> $540</span></p>
-
-                                    <div class="courses-content-wrapper">
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Advance
-                                                Psychology</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="credit">Credit: 125</p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="categoryRadio" id="categoryRadio4">
+                                        <label for="categoryRadio4"> <span></span> Social Marketing <strong>(05)</strong></label>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="courses-col">
-                            <div class="single-courses-2 courses-list mt-30">
-                                <div class="courses-image">
-                                    <a href="#"><img src="assets/images/courses-list/courses-6.webp" width="320"
-                                            height="300" alt="courses"></a>
-                                </div>
-                                <div class="courses-content">
-                                    <p class="courses-fee">Fee: <span> $540</span></p>
-
-                                    <div class="courses-content-wrapper">
-                                        <h4 class="courses-title"><a href="courses-details.html">Bachelor of Fashion
-                                                Design</a></h4>
-                                        <div class="duration-rating">
-                                            <div class="duration-fee">
-                                                <p class="duration">Duration: <span> 4 year</span></p>
-                                                <p class="credit">Credit: 125</p>
-                                            </div>
-                                            <div class="rating">
-                                                <span>Rating: </span>
-                                                <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="courses-link">
-                                            <a class="apply" href="#">Online Apply</a>
-                                            <a class="more" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-                                        </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="categoryRadio" id="categoryRadio5">
+                                        <label for="categoryRadio5"> <span></span> Fine Arts <strong>(12)</strong></label>
                                     </div>
-                                </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="categoryRadio" id="categoryRadio6">
+                                        <label for="categoryRadio6"> <span></span> Law <strong>(05)</strong></label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="shop-sidebar-price mt-30">
+                            <div class="sidebar-title">
+                                <h4 class="title">Price Filter</h4>
                             </div>
+                            <ul class="price-items">
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="priceRadio" id="priceRadio1">
+                                        <label for="priceRadio1"> <span></span> $50 to $200</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="priceRadio" id="priceRadio2">
+                                        <label for="priceRadio2"> <span></span> $201 to $700</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="priceRadio" id="priceRadio3">
+                                        <label for="priceRadio3"> <span></span> $800 to $5000</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" name="priceRadio" id="priceRadio4">
+                                        <label for="priceRadio4"> <span></span> $6000 to $5000</label>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-
-            <ul class="pagination-items text-center">
-                <li><a class="active" href="#">01</a></li>
-                <li><a href="#">02</a></li>
-                <li><a href="#">03</a></li>
-                <li><a href="#">04</a></li>
-                <li><a href="#">05</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <!--====== Top Course Ends ======-->
-
-    <!--====== Newsletter Start ======-->
-
-    <section class="newsletter-area-2">
-        <div class="container">
-            <div class="newsletter-wrapper bg_cover" style="background-image: url(assets/images/newsletter-bg-1.webp);">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="section-title-2 mt-25">
-                            <h2 class="title">Subscribe our Newsletter</h2>
-                            <span class="line"></span>
-                            <p>Even slightly believable. If you are going use a passage of Lorem Ipsum need some</p>
+                        <div class="shop-sidebar-banner mt-30">
+                            <a href="#">
+                                <img src="assets/images/product/banner.webp" width="270" height="310" alt="Banner">
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="newsletter-form mt-30">
-                            <form action="#">
-                                <input type="text" placeholder="Enter your email here">
-                                <button class="main-btn main-btn-2">Subscribe now</button>
-                            </form>
+
+                        <div class="shop-sidebar-tags mt-30">
+                            <div class="sidebar-title">
+                                <h4 class="title">Tags</h4>
+                            </div>
+                            <ul class="tags-items">
+                                <li><a href="#">Books</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">Pen</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Pencil</a></li>
+                                <li><a href="#">Stationary</a></li>
+                                <li><a href="#">Science</a></li>
+                                <li><a href="#">Art</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">ecommerce</a></li>
+                                <li><a href="#">Library</a></li>
+                                <li><a href="#">Shopping</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -836,8 +472,8 @@
         </div>
     </section>
 
-    <!--====== Newsletter Ends ======-->
-
+    <!--====== Product Details Ends ======-->
+    
     <!--====== Footer Start ======-->
 
     <section class="footer-area bg_cover" style="background-image: url(assets/images/counter-bg.png);">
@@ -877,9 +513,25 @@
                                 </li>
                             </ul>
                         </div>
+    
+                    </div>
+                </div>
+                <div class="footer-widget-wrapper">
+                    <div class="footer-social">
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/maruticolorandchemical"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                            <li><a href="https://instagram.com/maruti_chemical_export"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> -->
+                        </ul>
                     </div>
                 </div>
             </div>
+    
+    
+        </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
@@ -889,7 +541,7 @@
             </div>
         </div>
     </section>
-
+    
     <!--====== Footer Ends ======-->
 
     <!--====== BACK TOP TOP PART START ======-->
@@ -897,11 +549,30 @@
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
+    
+    <!--====== Start ======-->
+
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== Ends ======-->
+
+
+
 
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
-
+    
     <!--====== All Plugins js ======-->
     <script src="assets/js/plugins/popper.min.js"></script>
     <script src="assets/js/plugins/bootstrap.min.js"></script>
@@ -911,12 +582,12 @@
     <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
     <script src="assets/js/plugins/wow.min.js"></script>
     <script src="assets/js/plugins/ajax-contact.js"></script>
-
+    
 
     <!--====== Main Activation  js ======-->
     <script src="assets/js/main.js"></script>
-
-
+    
+    
 </body>
 
 </html>
